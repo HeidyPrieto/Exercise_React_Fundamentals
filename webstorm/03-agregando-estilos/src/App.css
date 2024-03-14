@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+!In your CSS¡
+.avatar{
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+*/
+
+/* Convertido a Tailwind CSS */
+.avatar {
+  @apply rounded-full;
+  border-radius: 50%;
+}
